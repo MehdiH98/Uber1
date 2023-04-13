@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 import pydeck as pdk
 
-path = "uber-raw-data-apr14.csv"
+path = "https://github.com/fivethirtyeight/uber-tlc-foil-response/blob/master/uber-trip-data/uber-raw-data-apr14.csv?raw=true"
 df = pd.read_csv(path, delimiter = ",")
 
 def get_dom(dt):
