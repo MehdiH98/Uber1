@@ -192,5 +192,3 @@ geojson = pdk.Layer(
 )
 
 st.pydeck_chart(pdk.Deck(layers=[polygon, geojson], initial_view_state=INITIAL_VIEW_STATE).to_html())
-
-pipreqs --encoding=utf8
